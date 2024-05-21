@@ -22,3 +22,5 @@ This section contains the extra information and notes you want to retain.
 - **init.py**: This file is used to create a local package for a directory.
 - To install all the packages we use pip install -r requirements.txt
 - To install the local packages in the virtual environment use -e .
+- traceback module is used to do the work of logging and debugging.
+- os.getenv("") are used to get environment variables that are either specified in the system environment variables or in the local environment using .env file or using EXPORT keyword in the terminal.
