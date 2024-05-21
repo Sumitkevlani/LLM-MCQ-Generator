@@ -23,4 +23,8 @@ This section contains the extra information and notes you want to retain.
 - To install all the packages we use pip install -r requirements.txt
 - To install the local packages in the virtual environment use -e .
 - traceback module is used to do the work of logging and debugging.
-- os.getenv("") are used to get environment variables that are either specified in the system environment variables or in the local environment using .env file or using EXPORT keyword in the terminal.
+- **os.getenv("VAR")**: are used to get environment variables that are either specified in the system environment variables or in the local environment using .env file or using EXPORT keyword in the terminal.
+- **OpenAI**: OpenAI class is used to interact with the models of the OpenAI class. It works as a wrapper over the OpenAI API.
+- **PromptTemplate**: PromptTemplate class is used to create a parameterized and reusable prompt template.
+- **LLMChain**: LLMChain class is used to create a chain of operations that involves LLM.
+- **SequentialChain**: SequentialChain is used to create a sequence of chains in which the output of one operation will be served as the input for the other operation.
