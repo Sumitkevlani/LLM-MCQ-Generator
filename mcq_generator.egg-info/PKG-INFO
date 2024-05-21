@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mcq_generator
+Version: 0.1
+Summary: This is a package to generate MCQ
+Home-page: https://github.com/Sumitkevlani/LLM-MCQ-Generator
+Author: Sumit Kevlani
+Author-email: kevlanisumit2004@gmail.com
+License: MIT
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: python-dotenv
+Requires-Dist: streamlit
+Requires-Dist: PyPDF2

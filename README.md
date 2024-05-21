@@ -20,3 +20,5 @@ This section contains the extra information and notes you want to retain.
 - **setup.py**: This file contains metadata related to the project which contains project name,author,author name,author email,etc.
 - **find_packages()**: This method will discover all the local packages in the project directory.
 - **init.py**: This file is used to create a local package for a directory.
+- To install all the packages we use pip install -r requirements.txt
+- To install the local packages in the virtual environment use -e .
