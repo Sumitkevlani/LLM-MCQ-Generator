@@ -35,3 +35,7 @@ This section contains the extra information and notes you want to retain.
   In Python Json module, we have two functions:
   json.dumps(): Serializing the Python object to JSON string
   json.loads(): Deserialize the JSON string to Python object
+- **logging module**:
+Logging module has various levels in Python and we need to display the logs as per the level.
+Here we are using logging.info that will display logs from the info level
+Then the format is used to format the logs that will be stored in the file.
