@@ -1,0 +1,9 @@
+Machine Learning is defined as a technology that is used to train machines to perform various actions such as predictions, recommendations, estimations, etc., based on historical data or past experience.
+
+Machine Learning enables computers to behave like human beings by training them with the help of past experience and predicted data.
+
+There are three key aspects of Machine Learning, which are as follows:
+
+Task: A task is defined as the main problem in which we are interested. This task/problem can be related to the predictions and recommendations and estimations, etc.
+Experience: It is defined as learning from historical or past data and used to estimate and resolve future tasks.
+Performance: It is defined as the capacity of any machine to resolve any machine learning task or problem and provide the best outcome for the same. However, performance is dependent on the type of machine learning problems.

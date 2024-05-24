@@ -28,3 +28,10 @@ This section contains the extra information and notes you want to retain.
 - **PromptTemplate**: PromptTemplate class is used to create a parameterized and reusable prompt template.
 - **LLMChain**: LLMChain class is used to create a chain of operations that involves LLM.
 - **SequentialChain**: SequentialChain is used to create a sequence of chains in which the output of one operation will be served as the input for the other operation.
+- **get_openai_callback()**: Here this function is used to get the information regarding number of tokens used and the number of prompt tokens used. So, basically the total cost associated with the API call can be achieved.
+- **Difference between response['quiz'] and response.get('quiz')**:
+  Here we have a difference between both the approaches that is that if the key does not exist in the dictionary the first method raises KeyError but the second method returns None or optionally it can return a default value if specified. Example: response.get('quiz',default)
+- **json.dumps() and json.loads()**:
+  In Python Json module, we have two functions:
+  json.dumps(): Serializing the Python object to JSON string
+  json.loads(): Deserialize the JSON string to Python object
