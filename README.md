@@ -36,6 +36,14 @@ This section contains the extra information and notes you want to retain.
   json.dumps(): Serializing the Python object to JSON string
   json.loads(): Deserialize the JSON string to Python object
 - **logging module**:
-Logging module has various levels in Python and we need to display the logs as per the level.
-Here we are using logging.info that will display logs from the info level
-Then the format is used to format the logs that will be stored in the file.
+  Logging module has various levels in Python and we need to display the logs as per the level.
+  Here we are using logging.info that will display logs from the info level
+  Then the format is used to format the logs that will be stored in the file.
+- **Tip**:
+  Any github project with https://github.com/... change it to https://github.dev/... it will open VScode environment.
+- Large Language model are trained to predict the next word from the input data.
+- **Types of prompting**:
+  We have two types of prompts: Zero-shot prompts and Few-shot prompts
+  In zero-shot prompts we provide the prompt to the AI model of what to do and we do not provide any specific exmaples or additional context.
+  Example: Write a poem about ocean.
+  In few-shot prompts we provide some examples to the AI model before asking the question which provides additional context or specific requirements to the AI model. We provide some prewritten poems in the specific format we want and the model do the same for us.
