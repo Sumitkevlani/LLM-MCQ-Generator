@@ -22,9 +22,10 @@ def read_file(file):
     
 
 
-def get_table_data(quiz_str):
+def get_table_data(quiz):
     try:
-        quiz_dict = json.loads(quiz_str)
+        print(quiz)
+        quiz_dict = json.loads(quiz)
         quiz_table_data = []
 
         for key,value in quiz_dict.items():
