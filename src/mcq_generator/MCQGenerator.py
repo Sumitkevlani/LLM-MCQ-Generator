@@ -1,10 +1,7 @@
 import os
-import json
 import pandas as pd
-import traceback
 
 from langchain_openai import ChatOpenAI
-from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
@@ -12,6 +9,7 @@ from langchain.callbacks import get_openai_callback
 
 from dotenv import load_dotenv
 from src.mcq_generator.logger import logging
+from src.mcq_generator.utils import read_file,get_table_data
 
 
 #Load environment variables from the .env file
